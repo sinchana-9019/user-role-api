@@ -1,3 +1,4 @@
-FROM openjdk:11
-COPY target/*.jar app.jar
+FROM eclipse-temurin:11-jre-jammy
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]

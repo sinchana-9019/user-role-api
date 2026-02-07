@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.user</groupId>
-	<artifactId>role</artifactId>
+	<artifactId>UserRole</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>User_Role_Task</name>
 	<description>Demo project for Spring Boot</description>
