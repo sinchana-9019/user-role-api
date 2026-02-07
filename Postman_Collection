@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "9acfdda2-a39b-468b-bf95-4cd33d62ab70",
+		"name": "USER ROLE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43549339"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/users",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ravi\",\r\n    \"role\": \"Developer\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/api/users' \\\r\n--header 'Content-Type: application/json' \\\r\n--data '{\r\n    \"name\": \"Ravi\",\r\n    \"role\": \"Developer\"\r\n}'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/api/users'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "https://user-role-api-25zd.onrender.com/api/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/api/users'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/users/role/Developer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users/role/Developer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"role",
+						"Developer"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/api/users/role/Developer'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "https://user-role-api-25zd.onrender.com/api/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users/role/Developer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"role",
+						"Developer"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/api/users/role/Developer'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "https://user-role-api-25zd.onrender.com/api/users",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Test\",\"role\":\"Developer\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://xxxx.onrender.com/api/users",
+					"protocol": "https",
+					"host": [
+						"xxxx",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				},
+				"description": "Generated from cURL: curl https://xxxx.onrender.com/api/users \\\r\n-H \"Content-Type: application/json\" \\\r\n-d '{\"name\":\"Test\",\"role\":\"Developer\"}'\r\n"
+			},
+			"response": []
+		}
+	]
+}
